@@ -7,8 +7,8 @@
 Este proyecto estará enfocado a implementar un microservicio en la nube en una aplicación web enfocada a la compraventa de videojuegos. Enfocándonos principalmente en el microservicio de gestión del catálogo.
 
 # Herramientas
-* El lenguaje programación que utilizaremos será Python, dado que nos será útil a la hora de utilizar el framework descrito en el siguiente punto.
+* El lenguaje de programación que utilizaremos será Python, dado que nos será útil a la hora de utilizar el framework descrito en el siguiente punto.
 * Nos apoyaremos en el framework Flask (estamos actualmente investigando sobre su uso en la asignatura Desarrollo de Aplicaciones para Internet, y esta es una oportunidad perfecta para su uso y profundización en el aprendizaje del mismo).
 * Virtualizaremos el entorno de desarrollo con virtualenv.
-* Cuando queramos realizar algún test, nos ayudaremos de la librería unittest, del programa pytest. Y a la hora de conseguir la integración continua utilizaremos Travis o Jenkins.
+* Cuando queramos realizar algún test, nos ayudaremos de la librería unittest y del programa pytest. Y a la hora de conseguir la integración continua utilizaremos Travis o Jenkins.
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
