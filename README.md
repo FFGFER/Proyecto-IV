@@ -1,6 +1,7 @@
 
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Build Status](https://travis-ci.org/FFGFER/Proyecto-IV.svg?branch=master)](https://travis-ci.org/FFGFER/Proyecto-IV)
 
 # Proyecto-IV - Tienda de videojuegos
 
@@ -21,6 +22,3 @@ Toda la documentación relativa al proyecto se encuentra aquí: [https://ffgfer.
 * [usuarios.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/usuarios.py): Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
 
 La aplicación aún no está disponible para su testeo.
-
-# Integración continua
-Podemos ver detalladamente los resultados que va dándonos Travis a través de este link: [https://travis-ci.org/FFGFER/Proyecto-IV](https://travis-ci.org/FFGFER/Proyecto-IV)
