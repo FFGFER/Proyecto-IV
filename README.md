@@ -14,10 +14,13 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
 
 # Documentación
-Toda la documentación relativa al proyecto y la superación de sus hitos se encuentra aquí: [https://ffgfer.github.io/Proyecto-IV/doc](https://ffgfer.github.io/Proyecto-IV/doc)
+Toda la documentación relativa al proyecto se encuentra aquí: [https://ffgfer.github.io/Proyecto-IV/doc](https://ffgfer.github.io/Proyecto-IV/doc)
 
 # Clases
 * [videojuegos.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/videojuegos.py): Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
 * [usuarios.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/usuarios.py): Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
 
 La aplicación aún no está disponible para su testeo.
+
+# Integración continua
+Podemos ver detalladamente los resultados que va dándonos Travis a través de este link: [https://travis-ci.org/FFGFER/Proyecto-IV](https://travis-ci.org/FFGFER/Proyecto-IV)
