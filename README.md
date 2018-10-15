@@ -12,3 +12,9 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 * Virtualizaremos el entorno de desarrollo con virtualenv.
 * Cuando queramos realizar algún test, nos ayudaremos de la librería unittest y del programa pytest. Y a la hora de conseguir la integración continua utilizaremos Travis o Jenkins.
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
+
+# Clases
+videojuegos.py: Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
+usuarios.py: Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
+
+La aplicación aún no está disponible para su testeo.
