@@ -14,7 +14,7 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
 
 # Clases
-videojuegos.py: Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
-usuarios.py: Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
+* [videojuegos.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/videojuegos.py): Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
+* [usuarios.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/usuarios.py): Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
 
 La aplicación aún no está disponible para su testeo.
