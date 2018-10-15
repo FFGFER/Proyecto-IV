@@ -13,6 +13,9 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 * Cuando queramos realizar algún test, nos ayudaremos de la librería unittest y del programa pytest. Y a la hora de conseguir la integración continua utilizaremos Travis o Jenkins.
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
 
+# Documentación
+Toda la documentación relativa al proyecto y la superación de sus hitos se encuentra aquí: [https://ffgfer.github.io/Proyecto-IV/doc](https://ffgfer.github.io/Proyecto-IV/doc)
+
 # Clases
 * [videojuegos.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/videojuegos.py): Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
 * [usuarios.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/usuarios.py): Esta clase se encarga de gestionar los usuarios de nuestra aplicación, aún está en fase de desarrollo.
