@@ -2,7 +2,7 @@
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Build Status](https://travis-ci.org/FFGFER/Proyecto-IV.svg?branch=master)](https://travis-ci.org/FFGFER/Proyecto-IV)
-[![Heroku](https://heroku-badge.herokuapp.com/?app=tienda-vg)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=tienda-vg)](https://tienda-vg.herokuapp.com/)
 
 # Proyecto-IV - Tienda de videojuegos
 
