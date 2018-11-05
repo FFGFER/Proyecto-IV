@@ -10,15 +10,10 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 def index():
     return jsonify(status="Ok")
 
-@app.route('/index')
-def index2():
-    return render_template('index.html')
-
 @app.route('/videojuegos')
 def vgs():
     vg = videojuegos.Videojuegos()
-    juegos = vg.getVideojuegos()
-    return render_template('videojuegos.html',vgs=juegos)
+    return jsonify(vg.getVideojuegos())
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
