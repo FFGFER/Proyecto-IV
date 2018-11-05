@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block contenido %}
+  <ul>
+    {% autoescape false %}
+    {% for juego in vgs %}
+    <li>{{ juego }}</li>
+    {% endfor %}
+    {% endautoescape %}
+  </ul>
+  {% autoescape false %}
+  <p>{{ json }}</p>
+  {% endautoescape %}
+{% endblock %}
