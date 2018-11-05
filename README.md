@@ -37,8 +37,6 @@ Para testear la funcionalidad localmente hay que ejecutar los siguientes comando
 # Despliegue en PaaS
 Para que la aplicación funcione se ha elegido Heroku como PaaS en el que desplegar nuestro proyecto
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 El motivo principal por el que se ha elegido este PaaS por su facilidad de uso y por su carácter gratuito.
 
 Despliegue [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/)
