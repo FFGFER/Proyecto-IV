@@ -1,0 +1,7 @@
+{
+  "name": "Tienda de Videojuegos",
+  "description": "Microservicio cuyo objetivo es la gestión de un catálogo de videojuegos en el contexto de una tienda de videojuegos online",
+  "repository": "https://github.com/FFGFER/Proyecto-IV",
+  "logo":,
+  "keywords": ["python", "videojuegos", "catálogo"]
+}
