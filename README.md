@@ -18,7 +18,9 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 # Instalación
 Para instalar la aplicación y ejecutarla localmente deberemos ejecutar los siguientes comandos:
 > git clone https://github.com/FFGFER/Proyecto-IV
+
 > pip install -r requirements
+
 > cd ./src && python3 tienda-vg
 
 # Clases
@@ -29,6 +31,7 @@ Este proyecto utiliza Travis-CI para la implementación de la integración conti
 
 Para testear la funcionalidad localmente hay que ejecutar los siguientes comandos, una vez tengamos los ficheros disponibles en nuestro almacenamiento local:
 > pip install -r requirements.txt
+
 > cd ./test/ && python test.py
 
 [Documentación integración continua](https://ffgfer.github.io/Proyecto-IV/doc/integracion)
@@ -42,7 +45,7 @@ El motivo principal por el que se ha elegido este PaaS por su facilidad de uso y
 
 Despliegue [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/)
 
-En [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/) podemos ver una muestra del funcionamiento de la clase Videojuegos, en este caso nos devuelve un array con el nombre de los juegos que tenemos en nuestra base de datos, algo que nos será de utilidad de cara al desarrollo del catálogo a la hora de mostrar los juegos de los que dispone el mismo.
+En [https://tienda-vg.herokuapp.com/videojuegos](https://tienda-vg.herokuapp.com/videojuegos) podemos ver una muestra del funcionamiento de la clase Videojuegos, en este caso nos devuelve un array con el nombre de los juegos que tenemos en nuestra base de datos, algo que nos será de utilidad de cara al desarrollo del catálogo a la hora de mostrar los juegos de los que dispone el mismo.
 
 [Documentación integración continua](https://ffgfer.github.io/Proyecto-IV/doc/despliegue)
 
