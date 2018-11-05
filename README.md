@@ -1,6 +1,7 @@
 
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![Build Status](https://travis-ci.org/FFGFER/Proyecto-IV.svg?branch=master)](https://travis-ci.org/FFGFER/Proyecto-IV)
 
 # Proyecto-IV - Tienda de videojuegos
 
@@ -12,6 +13,9 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 * Virtualizaremos el entorno de desarrollo con virtualenv.
 * Cuando queramos realizar algún test, nos ayudaremos de la librería unittest y del programa pytest. Y a la hora de conseguir la integración continua utilizaremos Travis o Jenkins.
 * Para la gestión de la base de datos de la que hará uso la aplicación se usará MariaDB.
+
+# Documentación
+Toda la documentación relativa al proyecto se encuentra aquí: [https://ffgfer.github.io/Proyecto-IV/doc](https://ffgfer.github.io/Proyecto-IV/doc)
 
 # Clases
 * [videojuegos.py](https://github.com/FFGFER/Proyecto-IV/blob/master/src/videojuegos.py): Esta clase se encarga de gestionar el catálogo de videojuegos, aún está en fase de desarrollo pues solo está diseñado y codificado un método que devuelve los videojuegos que hay en nuestra base de datos (en este caso, provisional hecha con archivos JSON).
