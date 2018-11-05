@@ -1,2 +1,1 @@
-# Documentación de los hitos
-* [Hito 2](hito2)
+# Documentación de los hitos* [Integración continua](integracion)* [Despliegue en PaaS](despliegue)
