@@ -14,5 +14,12 @@ def index():
 def index2():
     return render_template('index.html')
 
+@app.route('/videojuegos')
+def videojuegos():
+    vg = videojuegos.Videojuegos()
+    juegos = vg.getVideojuegos()
+    jsonvg = jsonify(juegos)
+    return render_template('videojuegos.html',vgs=juegos,json=jsonvg)
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
