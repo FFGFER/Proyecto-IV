@@ -15,7 +15,7 @@ def menuvg():
             "return" : "Videojuego cuyo ID sea igual al id de la url"
         },
         "Obtencion de todos los videojuegos guardados":{
-            "ruta" : "/Videojuegos",
+            "ruta" : "/videojuegos",
             "return" : "Vector con todos los nombres de los videojuegos almacenados"
         },
         "Adicion de videojuego":{
