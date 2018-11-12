@@ -1,5 +1,4 @@
-from flask import Flask, render_template, session, redirect, url_for, escape, request, jsonify
-from jinja2 import Markup
+from flask import Flask, jsonify
 import videojuegos
 
 app = Flask(__name__)
