@@ -41,7 +41,6 @@ El motivo principal por el que se ha elegido este PaaS por su facilidad de uso y
 
 Despliegue [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/)
 
-En [https://tienda-vg.herokuapp.com/videojuegos](https://tienda-vg.herokuapp.com/videojuegos) podemos ver una muestra del funcionamiento de la clase Videojuegos, en este caso nos devuelve un array con el nombre de los juegos que tenemos en nuestra base de datos, algo que nos será de utilidad de cara al desarrollo del catálogo a la hora de mostrar los juegos de los que dispone el mismo.
+En [https://tienda-vg.herokuapp.com/menu](https://tienda-vg.herokuapp.com/menu) están las rutas y las intrucciones para probar el uso de la funcionalidad de la aplicación
 
 [Documentación despliegue](https://ffgfer.github.io/Proyecto-IV/doc/despliegue)
-
