@@ -3,6 +3,8 @@ import videojuegos
 
 app = Flask(__name__)
 
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
+
 @app.route('/')
 def index():
     return jsonify(status="Ok")
@@ -10,19 +12,24 @@ def index():
 @app.route('/menu')
 def menuvg():
     return jsonify({
-        "Busqueda de videojuego por ID":{"ruta" : "/obtenervg/<id>",
+        "Busqueda de videojuego por ID":{
+            "ruta" : "/obtenervg/<id>",
             "salida" : "Videojuego cuyo ID sea igual al id de la url"
         },
-        "Obtencion de todos los videojuegos guardados":{"ruta" : "/videojuegos",
+        "Obtencion de todos los videojuegos guardados":{
+            "ruta" : "/videojuegos",
             "salida" : "Vector con todos los nombres de los videojuegos almacenados"
         },
-        "Adicion de videojuego":{"ruta" : "/addvg/<videojuego>",
+        "Adicion de videojuego":{
+            "ruta" : "/addvg/<videojuego>",
             "salida" : "Devuelve true si se ha aniadido el juego indicado en la url, false en caso contrario"
         },
-        "Busqueda de ID de videojuego":{"ruta" : "/findvg/<nombre videojuego>",
+        "Busqueda de ID de videojuego":{
+            "ruta" : "/findvg/<nombre videojuego>",
             "salida" : "Devuelve el ID del videojuego asociado al nombre indicado en la url, devuelve -1 si no encuentra nada"
         },
-        "Borrado de videojuego":{"ruta" : "/deletevg/<idvg>",
+        "Borrado de videojuego":{
+            "ruta" : "/deletevg/<idvg>",
             "salida" : "Devuelve true si el borrado del juego indicado en la url ha sido correcto, false en caso contrario"
         }
     })
