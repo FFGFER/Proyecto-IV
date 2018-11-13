@@ -35,6 +35,8 @@ Para testear la funcionalidad localmente hay que ejecutar los siguientes comando
 [Documentación integración continua](https://ffgfer.github.io/Proyecto-IV/doc/integracion)
 
 # Despliegue en PaaS
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Para que la aplicación funcione se ha elegido Heroku como PaaS en el que desplegar nuestro proyecto
 
 El motivo principal por el que se ha elegido este PaaS por su facilidad de uso y por su carácter gratuito.
