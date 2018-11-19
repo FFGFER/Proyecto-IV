@@ -14,6 +14,10 @@ def status():
 @app.route('/')
 def index():
     return jsonify({
+        "Estado":{
+            "ruta" : "/status",
+            "salida" : "status = OK"
+        },
         "Busqueda de videojuego por ID":{
             "ruta" : "/obtenervg/<id>",
             "salida" : "Videojuego cuyo ID sea igual al id de la url"
