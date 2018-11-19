@@ -41,8 +41,23 @@ Para que la aplicación funcione se ha elegido Heroku como PaaS en el que desple
 
 El motivo principal por el que se ha elegido este PaaS por su facilidad de uso y por su carácter gratuito.
 
-Despliegue [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/)
+Despliegue [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/status)
 
-En [https://tienda-vg.herokuapp.com/menu](https://tienda-vg.herokuapp.com/menu) están las rutas y las intrucciones para probar el uso de la funcionalidad de la aplicación
+En [https://tienda-vg.herokuapp.com/](https://tienda-vg.herokuapp.com/) están las rutas y las intrucciones para probar el uso de la funcionalidad de la aplicación
 
 [Documentación despliegue](https://ffgfer.github.io/Proyecto-IV/doc/despliegue)
+
+## Contenedores
+
+Contenedor: https://docker-tienda-vg.herokuapp.com/
+
+Repositorio en Docker Hub: https://hub.docker.com/r/ffgfer/proyecto-iv/
+
+Para obtener el contenedor basta con usar el comando que se indica en la propia página del repositorio: 
+> docker pull ffgfer/proyecto-iv
+
+Y para ejecutarlo nos basta con ejecutar: 
+> docker run --rm -p 80:80 -it ffgfer/proyecto-iv
+
+
+
