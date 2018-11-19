@@ -54,7 +54,7 @@ Creamos la app en Heroku en la que desplegaremos nuestro contenedor
 > git push heroku master
 
 Como podemos observar, cuando hacemos el deploy del proyecto sin contenedores se fija en el Procfile:
-![tienda-vg app](img/6.jpg)
+![tienda-vg app](img/7.jpg)
 
 Cuando desplegamos el contenedor, usa el heroku.yml que a su vez usa el Dockerfile:
-![docker-tienda-vg app](img/7.jpg)
+![docker-tienda-vg app](img/6.jpg)
