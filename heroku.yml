@@ -2,4 +2,4 @@ build:
     docker:
         web: Dockerfile
 run:
-    web: gunicorn tienda-vg:app
+    web: gunicorn src/tienda-vg:app
