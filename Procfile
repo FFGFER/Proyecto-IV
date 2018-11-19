@@ -1,1 +1,1 @@
-web: cd src && gunicorn tienda-vg:app
+web: gunicorn tienda-vg:app
