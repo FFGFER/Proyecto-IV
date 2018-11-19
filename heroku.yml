@@ -1,5 +1,3 @@
 build:
     docker:
         web: Dockerfile
-run:
-    web: cd src && gunicorn tienda-vg:app
