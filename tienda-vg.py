@@ -1,16 +1,18 @@
 from flask import Flask, jsonify
+import sys, os.path
+sys.path.append("src/")
 import videojuegos
 
 app = Flask(__name__)
 
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-@app.route('/')
-def index():
+@app.route('/status')
+def status():
     return jsonify(status="Ok")
 
-@app.route('/menu')
-def menuvg():
+@app.route('/')
+def index():
     return jsonify({
         "Busqueda de videojuego por ID":{
             "ruta" : "/obtenervg/<id>",
