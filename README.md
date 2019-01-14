@@ -61,4 +61,12 @@ Y para ejecutarlo nos basta con ejecutar:
 
 [Documentación contenedores](https://ffgfer.github.io/Proyecto-IV/doc/contenedores)
 
+## Despliegue en la nube
+
+Despliegue final: tienda-vg.westeurope.cloudapp.azure.com
+
+Para desplegar en la nube debemos tener antes instalados en nuestra máquina local azure-cli, ansible, fabric y vagrant.
+
+[Documentación despliegue en la nube](https://ffgfer.github.io/Proyecto-IV/doc/desplieguenube)
+
 
