@@ -39,6 +39,8 @@ tienda-vg.westeurope.cloudapp.azure.com
 
 Ese nombre de dominio cobrará su sentido una vez configuremos el Vagrantfile en el siguiente paso.
 
+Importante indicar en el archivo provision.yml en el campo host el valor azure, para aplicar los comandos indicados a las máquinas indicadas en el grupo azure del inventario de hosts de ansible.
+
 ## Paso 3: Creamos el Vagrantfile para configurar la máquina virtual alojada en Azure 
 
 El contenido de nuestro Vagrantfile y que aspectos configura los podemos observar en los comentarios dentro del propio Vagrantfile, que se encuentra en la raíz del proyecto:
