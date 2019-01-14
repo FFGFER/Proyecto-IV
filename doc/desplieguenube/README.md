@@ -39,7 +39,7 @@ tienda-vg.westeurope.cloudapp.azure.com
 
 Ese nombre de dominio cobrará su sentido una vez configuremos el Vagrantfile en el siguiente paso.
 
-## Paso 3: Creamos el Vagrantfile para 
+## Paso 3: Creamos el Vagrantfile para configurar la máquina virtual alojada en Azure 
 
 El contenido de nuestro Vagrantfile y que aspectos configura los podemos observar en los comentarios dentro del propio Vagrantfile, que se encuentra en la raíz del proyecto:
 
@@ -52,6 +52,16 @@ Para obtener el valor adecuado para esas variables de entorno deberemos ejecutar
 > az ad sp create-for-rbac
 
 > az account list --query "[?isDefault].id" -o tsv
+
+![](img/1.png)
+
+La actualización de las variables de entorno se hacen de manera muy sencilla:
+
+> export ENVAR="valor"
+
+Con la obtención de los valores, solo falta saber la correspondencia de cada dato con su correspondiente variable de entorno.
+
+AZURE_TENANT_ID adquiere el valor del campo tenant, AZURE_CLIENT_ID el del campo appId, AZURE_CLIENT_SECRET el del campo password, y AZURE_SUBSCRIPTION_ID el obtenido al ejecutar el comando "az account list --query "[?isDefault].id" -o tsv".
 
 ## Paso 4: Creamos el fabfile.py de Fabric para realizar el despliegue:
 
