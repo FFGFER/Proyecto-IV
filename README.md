@@ -63,7 +63,7 @@ Y para ejecutarlo nos basta con ejecutar:
 
 ## Despliegue en la nube
 
-Despliegue final: http://tienda-vg.westeurope.cloudapp.azure.com
+Despliegue final: 13.73.145.25
 
 Para desplegar en la nube debemos tener antes instalados en nuestra máquina local azure-cli, ansible, fabric y vagrant.
 
