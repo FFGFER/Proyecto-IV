@@ -1,0 +1,10 @@
+---
+- hosts: azure
+  sudo: yes
+  tasks:
+   - name: Git
+     apt: pkg=git state=present
+   - name: Python
+     apt: pkg=python3 state=present
+   - name: Pip3
+     apt: pkg=python3-pip state=present
