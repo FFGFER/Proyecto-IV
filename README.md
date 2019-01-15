@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/FFGFER/Proyecto-IV.svg?branch=master)](https://travis-ci.org/FFGFER/Proyecto-IV)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=tienda-vg)](https://tienda-vg.herokuapp.com/)
 
-# Proyecto-IV - Tienda de videojuegos
+# Proyecto IV - Tienda de videojuegos
 
 Este proyecto estará enfocado a implementar un microservicio en la nube en una aplicación web enfocada a la compraventa de videojuegos. Enfocándonos principalmente en el microservicio de gestión del catálogo.
 
@@ -63,7 +63,7 @@ Y para ejecutarlo nos basta con ejecutar:
 
 ## Despliegue en la nube
 
-Despliegue final: 13.73.145.25
+Despliegue final: 40.68.222.178
 
 Para desplegar en la nube debemos tener antes instalados en nuestra máquina local azure-cli, ansible, fabric y vagrant.
 Una vez hecho esto basta con ejecutar:
