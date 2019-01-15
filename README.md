@@ -17,7 +17,7 @@ Este proyecto estará enfocado a implementar un microservicio en la nube en una 
 Para instalar la aplicación y ejecutarla localmente deberemos ejecutar los siguientes comandos:
 > git clone https://github.com/FFGFER/Proyecto-IV
 
-> pip install -r requirements
+> pip3 install -r requirements
 
 > cd ./src && python3 tienda-vg
 
