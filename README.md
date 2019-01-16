@@ -63,7 +63,7 @@ Y para ejecutarlo nos basta con ejecutar:
 
 ## Despliegue en la nube
 
-Despliegue final: 40.118.59.160
+Despliegue final: 40.68.219.133
 
 Para desplegar en la nube debemos tener antes instalados en nuestra máquina local azure-cli, ansible, fabric y vagrant.
 Una vez hecho esto basta con ejecutar:

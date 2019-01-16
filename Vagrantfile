@@ -15,7 +15,7 @@ Vagrant.configure('2') do |config|
     azure.subscription_id = ENV['AZURE_SUBSCRIPTION_ID']
 
     # Indicamos que nombre queremos que tenga la MV en azure
-    azure.vm_name = "tienda-vg"
+    azure.vm_name = "tiendavg"
     # Abrimos el puerto 80 para tener acceso al servidor mediante el navegador
     azure.tcp_endpoints = "80"
     # Señalamos a azure que queremos que la localización de la mv sea en el Oeste de EUropa

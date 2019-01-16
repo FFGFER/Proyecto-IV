@@ -33,7 +33,7 @@ No debemos olvidar añadir al archivo /etc/ansible/hosts la dirección DNS de nu
 ~~~
 
 [azure]
-tienda-vg.westeurope.cloudapp.azure.com
+tiendavg.westeurope.cloudapp.azure.com
 
 ~~~
 

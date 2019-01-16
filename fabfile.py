@@ -1,6 +1,6 @@
 from fabric.api import *
 
-env.hosts = ['tienda-vg.westeurope.cloudapp.azure.com']
+env.hosts = ['tiendavg.westeurope.cloudapp.azure.com']
 env.user = 'vagrant'
 
 def hello():
