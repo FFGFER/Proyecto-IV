@@ -47,7 +47,9 @@ El contenido de nuestro Vagrantfile y que aspectos configura los podemos observa
 
 [Vagrantfile](https://github.com/FFGFER/Proyecto-IV/blob/master/Vagrantfile)
 
-Para confeccionar dicho Vagrantfile nos hemos apoyado en la documentación del plugin vagrant-azure, copiando el ejemplo que se expone en dicha documentación para crear una máquina virtual en azure de la manera que buscamos rápidamente, que como observaremos en la construcción del script de instalación, nos ayudaremos de él para usar vagrant junto con azure para la orquestación de la máquina virtual que allí alojaremos: [enlace a la documentación de vagrant-azure](https://github.com/Azure/vagrant-azure). También nos hemos ayudado de información encontrada por la red como por ejemplo [https://github.com/ansible/ansible/issues/37221](https://github.com/ansible/ansible/issues/37221) y [https://www.vagrantup.com/docs/provisioning/ansible.html](https://www.vagrantup.com/docs/provisioning/ansible.html)
+Para confeccionar dicho Vagrantfile nos hemos apoyado en la documentación del plugin vagrant-azure, copiando el ejemplo que se expone en dicha documentación para crear una máquina virtual en azure de la manera que buscamos rápidamente y adaptándolo con algunas adiciones adicionales para configurar ciertos aspectos de azure y para el provisionamiento mediante ansible.
+
+Como observaremos en la construcción del script de instalación, nos ayudaremos de él para usar vagrant junto con azure para la orquestación de la máquina virtual que allí alojaremos: [enlace a la documentación de vagrant-azure](https://github.com/Azure/vagrant-azure). También nos hemos ayudado de información encontrada por la red como por ejemplo [https://github.com/ansible/ansible/issues/37221](https://github.com/ansible/ansible/issues/37221) y [https://www.vagrantup.com/docs/provisioning/ansible.html](https://www.vagrantup.com/docs/provisioning/ansible.html)
 
 Para obtener el valor adecuado para esas variables de entorno deberemos ejecutar los siguientes comandos:
 
@@ -63,7 +65,8 @@ La actualización de las variables de entorno se hacen de manera muy sencilla:
 
 Con la obtención de los valores, solo falta saber la correspondencia de cada dato con su correspondiente variable de entorno.
 
-AZURE_TENANT_ID adquiere el valor del campo tenant, AZURE_CLIENT_ID el del campo appId, AZURE_CLIENT_SECRET el del campo password, y AZURE_SUBSCRIPTION_ID el obtenido al ejecutar el comando "az account list --query "[?isDefault].id" -o tsv".
+AZURE_TENANT_ID adquiere el valor del campo tenant, A
+CoZURE_CLIENT_ID el del campo appId, AZURE_CLIENT_SECRET el del campo password, y AZURE_SUBSCRIPTION_ID el obtenido al ejecutar el comando "az account list --query "[?isDefault].id" -o tsv".
 
 ## Paso 4: Creamos el fabfile.py de Fabric para realizar el despliegue:
 
