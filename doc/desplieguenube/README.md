@@ -57,7 +57,7 @@ Para obtener el valor adecuado para esas variables de entorno deberemos ejecutar
 
 > az account list --query "[?isDefault].id" -o tsv
 
-![](img/1.png)
+![](img/1.png) (Corrigiendo, para ocultar las claves)
 
 La actualización de las variables de entorno se hacen de manera muy sencilla:
 
