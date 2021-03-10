@@ -6,7 +6,7 @@ import json
 class Videojuegos:
 
 	def __init__(self):
-		with open('../src/videojuegos.json', 'r') as file:
+		with open('../videojuegos.json', 'r') as file:
 			self.vg = json.load(file)
 
 	def getVideojuego(self,idgame):
